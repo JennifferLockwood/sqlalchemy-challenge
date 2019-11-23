@@ -127,6 +127,7 @@ def startDate(start):
 
     session.close()
 
+    # Create a dictionary from the raw data and append to a list
     startDataList = []
     for result in results:
         startDataDict = {}
@@ -149,6 +150,7 @@ def query_dates(start, end):
 
     session.close()
 
+    # Create a dictionary from the raw data and append to a list
     datesDataList = []
     for result in results:
         datesDataDict = {}
